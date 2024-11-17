@@ -1,9 +1,4 @@
 <?php
-/*
- * @author    Daan Vos de Wael
- * @copyright Copyright (c) 2013, Daan Vos de Wael, http://www.daanvosdewael.com
- * @license   http://en.wikipedia.org/wiki/MIT_License The MIT License
-*/
 
   function gallery_metabox_enqueue($hook) {
     if ( 'post.php' == $hook || 'post-new.php' == $hook ) {
